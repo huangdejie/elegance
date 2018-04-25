@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="elegance-provider-web:war">
+    <output-path>$PROJECT_DIR$/elegance-provider-web/target</output-path>
+    <root id="archive" name="elegance-provider-web.war">
+      <element id="artifact" artifact-name="elegance-provider-web:war exploded" />
+    </root>
+  </artifact>
+</component>

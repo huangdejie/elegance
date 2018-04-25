@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.elegance.test.CnsumerTest" time="0.857" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\workspaces\elegance\elegance-consumer\target\test-classes;E:\workspaces\elegance\elegance-consumer\target\classes;D:\mvnrepo\repository2\com\elegance\elegance-common\1.0-SNAPSHOT\elegance-common-1.0-SNAPSHOT.jar;D:\mvnrepo\repository2\junit\junit\4.12\junit-4.12.jar;D:\mvnrepo\repository2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\mvnrepo\repository2\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\mvnrepo\repository2\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-oxm\4.3.8.RELEASE\spring-oxm-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-aspects\4.3.8.RELEASE\spring-aspects-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;D:\mvnrepo\repository2\org\springframework\spring-context-support\4.3.8.RELEASE\spring-context-support-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\mvnrepo\repository2\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;D:\mvnrepo\repository2\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire9041536659179647212\surefirebooter2399905339435811952.jar C:\Users\Administrator\AppData\Local\Temp\surefire9041536659179647212 2018-04-25T10-26-35_923-jvmRun1 surefire6409107804131890536tmp surefire_06449528871710136297tmp"/>
+    <property name="surefire.test.class.path" value="E:\workspaces\elegance\elegance-consumer\target\test-classes;E:\workspaces\elegance\elegance-consumer\target\classes;D:\mvnrepo\repository2\com\elegance\elegance-common\1.0-SNAPSHOT\elegance-common-1.0-SNAPSHOT.jar;D:\mvnrepo\repository2\junit\junit\4.12\junit-4.12.jar;D:\mvnrepo\repository2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\mvnrepo\repository2\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\mvnrepo\repository2\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-oxm\4.3.8.RELEASE\spring-oxm-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-aspects\4.3.8.RELEASE\spring-aspects-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;D:\mvnrepo\repository2\org\springframework\spring-context-support\4.3.8.RELEASE\spring-context-support-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar;D:\mvnrepo\repository2\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;D:\mvnrepo\repository2\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;D:\mvnrepo\repository2\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre"/>
+    <property name="basedir" value="E:\workspaces\elegance\elegance-consumer"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire9041536659179647212\surefirebooter2399905339435811952.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\mvnrepo\repository2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Administrator\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2016.1.2"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="user.dir" value="E:\workspaces\elegance\elegance-consumer"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Program Files\Java\jdk1.8.0_92\jre\bin;C:\Program Files\Java\jre1.8.0_92\bin;D:\svn\bin;D:\TortoiseSVN\bin;D:\apache-maven-3.3.9\apache-maven-3.3.9\bin;D:\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testa" classname="com.elegance.test.CnsumerTest" time="0.001">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboConsumerServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+Caused by: java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+Caused by: com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+Caused by: com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+Caused by: java.nio.channels.UnresolvedAddressException
+]]></error>
+    <system-err><![CDATA[四月 25, 2018 10:26:36 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+四月 25, 2018 10:26:36 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+信息: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+四月 25, 2018 10:26:36 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c70fda8, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@224edc67, org.springframework.test.context.support.DirtiesContextTestExecutionListener@14acaea5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@46d56d67, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@d8355a8]
+四月 25, 2018 10:26:36 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from URL [file:/E:/workspaces/elegance/elegance-consumer/target/classes/spring.xml]
+四月 25, 2018 10:26:36 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from URL [file:/E:/workspaces/elegance/elegance-consumer/target/classes/spring-dubbo.xml]
+四月 25, 2018 10:26:36 上午 com.alibaba.dubbo.common.logger.LoggerFactory info
+信息: using logger: com.alibaba.dubbo.common.logger.jcl.JclLoggerAdapter
+四月 25, 2018 10:26:36 上午 org.springframework.context.support.GenericApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.GenericApplicationContext@56ac3a89: startup date [Wed Apr 25 10:26:36 CST 2018]; root of context hierarchy
+四月 25, 2018 10:26:37 上午 com.alibaba.dubbo.registry.dubbo.DubboRegistry info
+信息:  [DUBBO] Subscribe: consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, dubbo version: 2.5.3, current host: 192.168.40.120
+四月 25, 2018 10:26:37 上午 com.alibaba.dubbo.rpc.protocol.dubbo.LazyConnectExchangeClient info
+信息:  [DUBBO] Lazy connect to dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, dubbo version: 2.5.3, current host: 192.168.40.120
+四月 25, 2018 10:26:37 上午 com.alibaba.dubbo.remoting.transport.AbstractClient error
+严重:  [DUBBO] Failed to start NettyClient H8JLPYIF7XTJ9F2/192.168.40.120 connect to the server ${dubbo.address}:9090 (check == false, ignore and retry later!), cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null, dubbo version: 2.5.3, current host: 192.168.40.120
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:103)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.<init>(NettyClient.java:61)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.connect(NettyTransporter.java:37)
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.connect(Transporter$Adpative.java)
+	at com.alibaba.dubbo.remoting.Transporters.connect(Transporters.java:67)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.connect(HeaderExchanger.java:37)
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.connect(Exchangers.java:102)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.LazyConnectExchangeClient.initClient(LazyConnectExchangeClient.java:79)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.LazyConnectExchangeClient.request(LazyConnectExchangeClient.java:104)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.request(ReferenceCountExchangeClient.java:81)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:96)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:144)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:74)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:48)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:227)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy0.subscribe(proxy0.java)
+	at com.alibaba.dubbo.registry.dubbo.DubboRegistry.doSubscribe(DubboRegistry.java:138)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.subscribe(FailbackRegistry.java:189)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.subscribe(RegistryDirectory.java:133)
+	at com.alibaba.dubbo.registry.dubbo.DubboRegistryFactory.createRegistry(DubboRegistryFactory.java:80)
+	at com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistry(AbstractRegistryFactory.java:94)
+	at com.alibaba.dubbo.registry.RegistryFactory$Adpative.getRegistry(RegistryFactory$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:240)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:63)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:60)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:392)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:522)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:140)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:103)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:60)
+	at org.jboss.netty.channel.Channels.connect(Channels.java:541)
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:210)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:227)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:188)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:88)
+	... 94 more
+
+四月 25, 2018 10:26:37 上午 org.springframework.context.support.GenericApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboConsumerServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+四月 25, 2018 10:26:37 上午 org.springframework.test.context.TestContextManager prepareTestInstance
+严重: Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@224edc67] to prepare test instance [com.elegance.test.CnsumerTest@64b0598]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboConsumerServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 27 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dubboService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:522)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	... 43 more
+Caused by: java.lang.IllegalStateException: Failed to subscribe consumer://192.168.40.120/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.subscribe(FailbackRegistry.java:206)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.subscribe(RegistryDirectory.java:133)
+	at com.alibaba.dubbo.registry.dubbo.DubboRegistryFactory.createRegistry(DubboRegistryFactory.java:80)
+	at com.alibaba.dubbo.registry.support.AbstractRegistryFactory.getRegistry(AbstractRegistryFactory.java:94)
+	at com.alibaba.dubbo.registry.RegistryFactory$Adpative.getRegistry(RegistryFactory$Adpative.java)
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.refer(RegistryProtocol.java:240)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.refer(ProtocolListenerWrapper.java:63)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.refer(ProtocolFilterWrapper.java:60)
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.refer(Protocol$Adpative.java)
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:392)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 53 more
+Caused by: com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method subscribe in the service com.alibaba.dubbo.registry.RegistryService. Tried 3 times of the providers [${dubbo.address}:9090] (1/1) from the registry ${dubbo.address}:9090 on the consumer 192.168.40.120 using the dubbo version 2.5.3. Last error is: Failed to invoke remote method: subscribe, provider: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&connect.timeout=10000&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false, cause: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:101)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:227)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:72)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:52)
+	at com.alibaba.dubbo.common.bytecode.proxy0.subscribe(proxy0.java)
+	at com.alibaba.dubbo.registry.dubbo.DubboRegistry.doSubscribe(DubboRegistry.java:138)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.subscribe(FailbackRegistry.java:189)
+	... 66 more
+Caused by: com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://${dubbo.address}:9090/com.alibaba.dubbo.registry.RegistryService?application=eleganceDubbo&callbacks=10000&check=false&codec=dubbo&connect.timeout=10000&dubbo=2.5.3&heartbeat=60000&interface=com.alibaba.dubbo.registry.RegistryService&lazy=true&methods=lookup,unsubscribe,subscribe,unregister,register&pid=6180&reconnect=false&send.reconnect=true&sticky=true&subscribe.1.callback=true&timeout=10000&timestamp=1524623197216&unsubscribe.1.callback=false) failed to connect to server ${dubbo.address}:9090, error message is:null
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.send(AbstractClient.java:263)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeChannel.request(HeaderExchangeChannel.java:112)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeClient.request(HeaderExchangeClient.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.LazyConnectExchangeClient.request(LazyConnectExchangeClient.java:105)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.request(ReferenceCountExchangeClient.java:81)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:96)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:144)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:74)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:75)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:48)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:91)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:53)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	... 72 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:101)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:622)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:140)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:103)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:60)
+	at org.jboss.netty.channel.Channels.connect(Channels.java:541)
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:210)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:227)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:188)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:88)
+	... 90 more
+
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/elegance.iml" filepath="$PROJECT_DIR$/elegance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elegance-common/elegance-common.iml" filepath="$PROJECT_DIR$/elegance-common/elegance-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elegance-consumer/elegance-consumer.iml" filepath="$PROJECT_DIR$/elegance-consumer/elegance-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elegance-provider/elegance-provider.iml" filepath="$PROJECT_DIR$/elegance-provider/elegance-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elegance-provider-web/elegance-provider-web.iml" filepath="$PROJECT_DIR$/elegance-provider-web/elegance-provider-web.iml" />
+    </modules>
+  </component>
+</project>
